@@ -2,10 +2,10 @@
 {
     internal class TakePins
     {
-        //Här är main klassen där koden ska testas, lägg in i mappen
+        //Här är main klassen där koden ska testas, lägg inmappen
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Hello, World!"); 
         }
 
     }
