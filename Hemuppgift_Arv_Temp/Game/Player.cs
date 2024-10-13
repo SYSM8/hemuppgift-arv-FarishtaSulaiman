@@ -18,7 +18,7 @@ namespace Hemuppgift_Arv_Temp.Game
         }
 
         // lagrar spelarens ID
-        public string getUserId() 
+        public string GetUserId() 
         { 
             return UserId; 
         }
