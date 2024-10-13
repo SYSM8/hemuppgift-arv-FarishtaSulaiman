@@ -1,11 +1,11 @@
-﻿namespace Hemuppgift_Arv_Temp
+﻿namespace Hemuppgift_Arv_Temp.Game
 {
     internal class TakePins
     {
         //Här är main klassen där koden ska testas, lägg in mappen
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!"); 
+            Console.WriteLine("Hello, World!");
         }
 
     }
