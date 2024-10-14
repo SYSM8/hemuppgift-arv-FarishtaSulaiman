@@ -18,6 +18,11 @@ namespace Hemuppgift_Arv_Temp.Game
         }
 
 
+        //abstrakt metod för att ta bort stickor, 
+        // måste göras av underklassen
+        public abstract int TakePins(Board board);
+
+
 
     }
 }
