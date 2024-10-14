@@ -8,8 +8,9 @@ using System.Threading.Tasks;
 namespace Hemuppgift_Arv_Temp.Game
 {
     public class ComputerPlayer : Player
-    { }
+    {
+        
+        
 
-    
-
+    }
 }
