@@ -11,11 +11,12 @@
 
             // Skapar en mänsklig spelare och en datorspelare
             Player player1 = new HumanPlayer("Människospelare");
-            Player player2 = new ComputerPlayer("Dator");
+            //Player player2 = new ComputerPlayer("Dator");
+            Player player3 = new AdvancedComputerPlayer("Avancerad Datorspelare");
 
             Player currentPlayer = player1;
 
-            // Huvudspelsloopen
+            // loop för spelet 
             while (board.GetNoPins() > 0)
             {
                Console.WriteLine($"Antal stickor på bordet just nu: {board.GetNoPins()}");
@@ -32,7 +33,7 @@
                 }
 
                 // Växla spelare
-                currentPlayer = currentPlayer == player1 ? player2 : player1;
+                currentPlayer = currentPlayer == player1 ? player3 : player1;
             }
         }
     }
