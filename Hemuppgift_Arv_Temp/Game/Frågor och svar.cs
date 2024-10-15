@@ -10,7 +10,7 @@ namespace Hemuppgift_Arv_Temp.Game
     {
 
 
-        // klassen player är subklass/superklass till klasserna humanplayer och computerplayer
+        // klassen player är basklass/superklass till klasserna humanplayer och computerplayer
 
 
         // Både Vilka av följande tilldelningssatser är korrekta?
